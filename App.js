@@ -10,18 +10,7 @@ function App () {
     <>
       <StatusBar barStyle="light-content" backgroundColor="#6c4fbb" />
       <Container>
-        <Image
-          animation="pulse"
-          iterationCount="infinite"
-          style={{ width:180, height: 120}}
-          source={logo}
-        />
-        <View animation="slideInDown" iterationCount={1}>
-          <Text>
-            Rocketseat
-          </Text>
-        </View>
-        <Sub>Embarque nesse foquete.</Sub>
+      
       </Container>
     </>
   );
